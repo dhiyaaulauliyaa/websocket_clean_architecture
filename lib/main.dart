@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'core/injection/service_locator.dart';
 import 'feature/home/presentation/pages/home_page.dart';
 
-void main() {
+void main() async {
+  await configureDependencies();
+
   runApp(const MyApp());
 }
 
