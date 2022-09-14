@@ -12,11 +12,25 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #? Core Utils
+  dartz: ^0.10.0
+  get_it: ^7.2.0                      
+  injectable: ^1.5.3                  
+  equatable: ^2.0.3           
+
+  #? State Management
+  flutter_hooks: ^0.18.3
+
+  #? Network
+  web_socket_channel: ^2.2.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^1.0.0
+  build_runner: ^2.1.7            # Build Runner
+  injectable_generator: ^1.5.2    # Injectable generator
 
 flutter:
   uses-material-design: true
